@@ -1,4 +1,4 @@
-Feature: Validating Place API's
+Feature: Validating Place API's Again
 
   Scenario Outline: Verify if place is being Successfully added using AddPlaceAPI
     Given Add Place Payload <accuracy> "<name>" "<phone_number>" "<address>" "<website>" "<language>" "<types>" "<lat>" "<lng>"
@@ -45,5 +45,3 @@ Feature: Validating Place API's
     Examples:
       | name  |
       | Bata  |
-      | Siraz |
-      | Baga  |
